@@ -1,11 +1,18 @@
 # acronyms
+svg
+yaml
+https
+MYINC
 
 # authors
+praisetompane
 
 # concepts
 
 # course codes:
 
 # technology:
+pyspelling
 
 # institutions:
+roadmap

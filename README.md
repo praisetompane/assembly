@@ -1,16 +1,11 @@
-# Language
-![build status](https://github.com/praisetompane/language/actions/workflows/language.yaml/badge.svg) <br>
+# Assembly
+![build status](https://github.com/praisetompane/assembly/actions/workflows/assembly.yaml/badge.svg) <br>
 
 ## Objectives
-- An in-depth study of:
-    - Language's Compiler/Interpreter.
-        - This focuses on:
-            - []()
-            - [Annotations on the actual interpreter implementation]()
-    - Language's language design, implementation and ecosystem.
+- Notes: The Assembly Programming Language 
 
 ## Language Details
-- [Language Specification]
+- [Language Specification]()
     - the syntax and semantics description
     - key topics:
         - implementations
@@ -33,12 +28,12 @@
     - Structuring Projects:
         - ...
 - [Extending and Embedding]()
-- [Developer Contribution Guide]
-- [History]
+- [Developer Contribution Guide]()
+- [History]()
 
 ## Use Cases
 - [Applications for Language]()
-- [Effective Application]
+- Effective Application
     - The style of effective programs, with emphasis on idioms.      
     - Metaphors, images, and ways of thinking favoured by the language.
     
