@@ -3,9 +3,14 @@ svg
 yaml
 https
 MYINC
+CISC
+ISA
+RISCV
+sdm
 
 # authors
 praisetompane
+Zelnski
 
 # concepts
 
@@ -16,3 +21,6 @@ pyspelling
 
 # institutions:
 roadmap
+
+# urls:
+txt

@@ -5,14 +5,7 @@
 - Notes: The Assembly Programming Language 
 
 ## Language Details
-- [Language Specification]()
-    - the syntax and semantics description
-    - key topics:
-        - implementations
-        - lexical analysis
-        - data model
-        - standard type hierarchy
-        - execution model
+- [Language Specification](1_core_language/1_implementations/1_implementations.txt)
 - [Compiler | Interpreter]()
 - [Type System]()
 - [Memory Model]()
