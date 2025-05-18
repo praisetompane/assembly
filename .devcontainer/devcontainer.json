@@ -1,0 +1,14 @@
+{
+	"name": "language",
+	"build": {
+		"dockerfile": "../Dockerfile"
+	},
+	"customizations": {
+		"vscode": {
+			"extensions": [],
+			"settings": {}
+		}
+	},
+	"workspaceMount": "source=${localWorkspaceFolder},target=/language,type=bind,consistency=delegated",
+	"workspaceFolder": "/language"
+}
