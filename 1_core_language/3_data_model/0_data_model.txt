@@ -5,9 +5,21 @@ def data model:
 
     - plain english: ???
 
-    - intuition: ???
+    - intuition: assembly's data model is the structure of the CPU's registers and main memory directly.
 
-    - properties: ???
+    - properties:
+        - CPU:
+            - registers:
+                - size|width: defined by the instruction set. either 8-bits, 16-bits, 32-bits, 64-bits.
+                        remark:
+                            - most modern computers are 64 bits.
+                - examples: these are actual register names in x86
+                    - rsi
+                    - rdi
+                    - r8
+                    - ...
+        - Main memory:
+            - 
 
     - examples: ???
 
