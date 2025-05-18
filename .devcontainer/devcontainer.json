@@ -1,14 +1,15 @@
 {
-	"name": "language",
+	"name": "assembly",
 	"build": {
 		"dockerfile": "../Dockerfile"
 	},
 	"customizations": {
 		"vscode": {
-			"extensions": [],
+			"extensions": [
+				"llvm-vs-code-extensions.lldb-dap",
+				"13xforever.language-x86-64-assembly"
+			],
 			"settings": {}
 		}
-	},
-	"workspaceMount": "source=${localWorkspaceFolder},target=/language,type=bind,consistency=delegated",
-	"workspaceFolder": "/language"
+	}
 }

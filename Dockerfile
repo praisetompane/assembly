@@ -1,13 +1,20 @@
-FROM language:3.13
+FROM silkeh/clang
 
-WORKDIR /language
+WORKDIR /assembly
 
 COPY . .
 
 RUN apt-get update \
     && apt-get install aspell -y
 
-RUN python -m pip install -r requirements.txt
+RUN apt-get install git-all -y
 
-RUN adduser -u 5678 --disabled-password --gecos "" language && chown -R language /language
-USER language
+RUN apt-get install python3 -y && \
+    apt-get install python3-pip -y && \
+    apt-get install pipenv -y && \
+    ln -s /usr/bin/python3 /usr/bin/python
+
+RUN pipenv sync --system -d
+
+RUN adduser -u 5678 --disabled-password --gecos "" assembly && chown -R assembly /assembly
+USER assembly
