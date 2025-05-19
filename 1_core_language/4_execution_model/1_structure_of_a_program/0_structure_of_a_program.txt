@@ -10,7 +10,7 @@ structure of an Assembly program:
 
                 .global _start
 
-            2. specify syntax variant used for this program.
+            2. specify syntax variant used for this program. the one below is a GNU assembler directive for Intel variant of x86.
 
                 .intel_syntax noprefix
 
@@ -26,7 +26,7 @@ structure of an Assembly program:
                             - to get the kernel to perform some operation we:
                                 1. configure the state of the SPECIFIC registers to match the desired operation. this is akin to invoking a function with specific parameter/s.
                                     # see: linux kernel system calls: 
-                                        - https://blog.rchapman.org/posts/Linux_System_Call_Table_for_x86_64/
+                                        - Chapam, R.A. 2012. Linux System Call Table for x86 64. https://blog.rchapman.org/posts/Linux_System_Call_Table_for_x86_64/
                                         - https://lxr.linux.no/#linux+v3.2/arch/x86/include/asm/unistd_64.h
                                 2. execute the system call with the 'syscall' keyword
 

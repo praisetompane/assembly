@@ -15,6 +15,7 @@ lxr
 praisetompane
 Zelnski
 rchapman
+Chapam
 
 # assembly keywords:
 mov
@@ -28,9 +29,11 @@ unistd
 
 # technology:
 pyspelling
+binutils
 
 # institutions:
 roadmap
+sourceware
 
 # urls:
 txt
