@@ -20,5 +20,3 @@ Known implementations:
                     - AT&T
 References: 
     - Chang, M., Zelnski ,J. 2025. CS107 - Computer Organization and Systems. Stanford University
-   
-   

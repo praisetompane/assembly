@@ -6,13 +6,13 @@
 
 ## Language Details
 - [Language Specification](1_core_language/1_implementations/1_implementations.txt)
-- [Compiler | Interpreter]()
-- [Type System]()
-- [Memory Model]()
-- [Language Reference]()
-- [Standard Library]()
-    - commonly used and required features of a language
-        e.g. collections
+- Assembler
+    - [GNU assembler](https://sourceware.org/binutils/docs/as/index.html)
+    - ...
+- Type System: Depends on ISA and Specific Hardware Implementation.
+- Memory Model: Depends on ISA and Specific Hardware Implementation.
+- [Language Reference](1_core_language/1_implementations/1_implementations.txt)
+- Standard Library: Depends on ISA and Specific Hardware Implementation.
 - Packaging and Distribution
     - [Core Module Index]()
     - [Package Index]()
@@ -25,10 +25,8 @@
 - [History]()
 
 ## Use Cases
-- [Applications for Language]()
-- Effective Application
-    - The style of effective programs, with emphasis on idioms.      
-    - Metaphors, images, and ways of thinking favoured by the language.
+- [Applications for Assembly]()
+
     
 ## Community
 
