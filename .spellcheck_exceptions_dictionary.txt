@@ -8,12 +8,21 @@ ISA
 RISCV
 sdm
 rdi
+asm
+lxr
 
 # authors
 praisetompane
 Zelnski
+rchapman
 
-# concepts
+# assembly keywords:
+mov
+noprefix
+syscall
+
+# domain specific:
+unistd
 
 # course codes:
 

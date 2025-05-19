@@ -6,6 +6,7 @@ def data model:
     - plain english: ???
 
     - intuition: assembly's data model is the structure of the CPU's registers and main memory directly.
+                 there is no abstraction over the basic units of the computer(i.e. CPU and Main Memory).
 
     - properties:
         - CPU:
