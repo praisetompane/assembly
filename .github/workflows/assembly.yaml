@@ -1,4 +1,4 @@
-name: language
+name: assembly
 
 on: 
   push:

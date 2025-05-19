@@ -1,0 +1,45 @@
+structure of an Assembly program:
+    - formal: ???
+        - in words: ???
+        Q: Is there a formal notion/definition of an Assembly program?
+        
+    - properties:
+        - flow:
+            1. create and expose a symbol for the linker to know where our code starts.
+                - the equivalent of the main in Java, C#, C, C++.
+
+                .global _start
+
+            2. specify syntax variant used for this program.
+
+                .intel_syntax noprefix
+
+            3. implement program
+                _start:
+                    1. register and memory manipulation with keyword such as 'mov'
+                        # example: mov rdi, 8 #this sets the value of register rdi to 8
+
+                    2. request kernel to perform work such as printing to screen, properly exiting etc
+                    syscall
+                        
+                        remarks:
+                            - to get the kernel to perform some operation we:
+                                1. configure the state of the SPECIFIC registers to match the desired operation. this is akin to invoking a function with specific parameter/s.
+                                    # see: linux kernel system calls: 
+                                        - https://blog.rchapman.org/posts/Linux_System_Call_Table_for_x86_64/
+                                        - https://lxr.linux.no/#linux+v3.2/arch/x86/include/asm/unistd_64.h
+                                2. execute the system call with the 'syscall' keyword
+
+            4. new line at the end of program
+
+    - examples:
+        - 4_experiments/1_core_language/x86/64_bit/intel/1_hello_world.asm
+
+    - use cases: ???
+        
+    - proof: ???
+
+References:
+    - Advanced Computing Research Centre. 21.2. AT&T Syntax versus Intel Syntax. University of Bristol
+    - Low Level. 2023. Learn Assembly
+
