@@ -1,12 +1,9 @@
-# acronyms
+# acronyms/abbreviations
 svg
 yaml
 https
 MYINC
-CISC
 ISA
-RISCV
-sdm
 rdi
 asm
 lxr
@@ -17,23 +14,29 @@ Zelnski
 rchapman
 Chapam
 
-# assembly keywords:
+
+# domain specific
+unistd
+
+
+# institutions
+roadmap
+sourceware
+
+
+# places
+
+
+# assembly keywords
 mov
 noprefix
 syscall
 
-# domain specific:
-unistd
 
-# course codes:
-
-# technology:
+# technology
 pyspelling
 binutils
 
-# institutions:
-roadmap
-sourceware
 
-# urls:
+# urls
 txt

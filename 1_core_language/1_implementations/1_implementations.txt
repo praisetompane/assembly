@@ -1,22 +1,12 @@
 Known implementations:
     - Every CPU architecture/family as its own instruction set architecture(ISA):
         - The ISA defines:
-            - underlying machine code 
+            - underlying machine code
             - the assembly language, which is human readable machine code.
                 - often with a one-to-one mapping from assembly to machine code bit strings.
 
-    - CPU architecture/family:    
-        - RISC: Reduced Instruction Set Computer
-            - RISC-V: https://github.com/riscv
+    - CPU architecture/family:
+        - see: https://github.com/praisetompane/computation/tree/main/3_computer_systems_organization/0_architectures/0_serial_architectures
 
-            - variations:
-                - ARM: Advanced RISC Machine
-                - MIPS
-
-        - CISC: Complex Instruction Set Computer:
-            - X86: https://www.intel.com/content/www/us/en/developer/articles/technical/intel-sdm.html
-                - syntax variations:
-                    - Intel
-                    - AT&T
-References: 
+References:
     - Chang, M., Zelnski ,J. 2025. CS107 - Computer Organization and Systems. Stanford University
